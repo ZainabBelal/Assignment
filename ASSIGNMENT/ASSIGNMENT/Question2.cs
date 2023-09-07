@@ -1,6 +1,6 @@
 ﻿using System;
 
-
+//Program to accept 10 subject marks, print maximum , minimum and average of all subjects
 namespace ASSIGNMENT2
 {
     class Question2
