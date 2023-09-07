@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//Program to find average , maximum and minimum element of an array
 namespace ASSIGNMENT2
 {
     class Question1
