@@ -3,7 +3,6 @@
 //program to accept two words from user and find if they are same or not
 namespace ASSIGNMENT3
 {
-    //program to check if two entered strings are same or not
     class task3
     {
         public static void Main()
