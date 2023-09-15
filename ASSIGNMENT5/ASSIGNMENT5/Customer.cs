@@ -23,14 +23,7 @@ class Customer
         Phn = phone;
         Ct = city;
     }
-    public void DisplayCustomer()
-    {
-        Console.WriteLine("Customer ID: " + CustId);
-        Console.WriteLine("Name: " + Nm);
-        Console.WriteLine("Age: " + Ag);
-        Console.WriteLine("Phone: " + Phn);
-        Console.WriteLine("City: " + Ct);
-    }
+    
     ~Customer()
     {
         Console.WriteLine("-----------Destructor Invoked-------------");
