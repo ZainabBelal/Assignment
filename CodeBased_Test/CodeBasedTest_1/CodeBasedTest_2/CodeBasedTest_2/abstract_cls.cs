@@ -4,31 +4,45 @@ class abstract_cls
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("FOR UNDERGRADUATE");
         Console.WriteLine("Enter Name:");
+        string name = Console.ReadLine();
+        Console.WriteLine("Enter ID:");
+        string sid = Console.ReadLine();
+        Console.WriteLine("Enter Grade:");
+        double grd = Convert.ToDouble(Console.ReadLine());
+
 
         Undergraduate undergrad1 = new Undergraduate
         {
-            Name = "Zainab",
-            StudentId = "B83",
-            Grade = 70.0
+            Name = name,
+            StudentId = sid,
+            Grade = grd
 
         };
-        Console.WriteLine("Name is: {0}", undergrad1.Name);
-        Console.WriteLine("Student ID is: {1}", undergrad1.StudentId); 
-        Console.WriteLine("Grade is: {2}", undergrad1.Grade);
-        Console.WriteLine("'The student is passed': {3}", undergrad1.IsPassed());
+        Console.WriteLine("Name is:"+ undergrad1.Name);
+        Console.WriteLine("Student ID is:"+ undergrad1.StudentId); 
+        Console.WriteLine("Grade is: "+ undergrad1.Grade);
+        Console.WriteLine("'The result for undergraduate, if student is passed':"+ undergrad1.IsPassed());
 
+         Console.WriteLine("FOR GRADUATE");
+         Console.WriteLine("Enter Name:");
+        string nam = Console.ReadLine();
+        Console.WriteLine("Enter ID:");
+        string id = Console.ReadLine();
+        Console.WriteLine("Enter Grade:");
+        double gr = Convert.ToDouble(Console.ReadLine());
 
         Graduate grad1 = new Graduate
         {
-            Name = "Shweta",
-            StudentId = "A86",
-            Grade = 90.0
+            Name = nam,
+            StudentId = id,
+            Grade = gr
         };
         Console.WriteLine("Name is:" + grad1.Name);
         Console.WriteLine("Student ID is:" + grad1.StudentId);
         Console.WriteLine("Grade is:" + grad1.Grade);
-        Console.WriteLine("'The student is passed':" + grad1.IsPassed());
+        Console.WriteLine("'The result for graduate, if student is passed':" + grad1.IsPassed());
         Console.ReadLine();
     }
 }
