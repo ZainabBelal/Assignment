@@ -56,8 +56,8 @@ namespace Case_Study_
             
 
             
-        //    Student student1 = new Student(101, "John Doe", new DateTime(2000, 1, 15));
-        //    Student student2 = new Student(102, "Jane Smith", new DateTime(1999, 5, 20));
+        //    Student student1 = new Student(101, "Shivangi", new DateTime(2000, 1, 15));
+        //    Student student2 = new Student(102, "Shivesh", new DateTime(1999, 5, 20));
 
             
         //    info.DisplayStudentDetails(student1);
