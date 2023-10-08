@@ -94,6 +94,10 @@ select ename,sal from empl where deptno=20 and job='ANALYST' and sal>1200
 order by ename
 
 --10
+select d.deptno, d.dname, sum(e.sal) as "Total Salary"
+from dept d
+left join emp e on d.deptno = e.deptno
+group by d.deptno, d.dname
 
 
 --11
@@ -114,6 +118,9 @@ from empl
 where (sal not between 1500 and 2850)
 
 --15
-
+select m.ename as "Manager Name", count(e.ename) as "Number of Employees" from emp e
+join emp m on e.mgr_id = m.empno
+group by m.ename
+having count(e.ename)>2
 
 
