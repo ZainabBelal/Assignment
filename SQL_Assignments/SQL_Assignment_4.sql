@@ -41,7 +41,7 @@ end
 MultiplicationTable 6
 
 --3.  Create a trigger to restrict data manipulation on EMP table during General holidays. 
---Display the error message like ìDue to Independence day you cannot manipulate dataî 
+--Display the error message like ‚ÄúDue to Independence day you cannot manipulate data‚Äù 
 --or "Due To Diwali", you cannot manupulate" etc
 --Note: Create holiday table as (holiday_date,Holiday_name) store at least 4 holiday details. try to match and stop manipulation 
 create table holiday
@@ -72,7 +72,7 @@ begin
 	end
 end
 
-insert into employee values (1,'ajay','clerk',123,'2001-12-12',200,100,null)
+insert into employee values (500,'HARISH','MANAGER',7839,'2023-10-14',3000,NULL,20)
 
 select * from employee
 
